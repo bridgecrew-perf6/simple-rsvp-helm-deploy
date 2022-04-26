@@ -7,7 +7,7 @@ image:
   repository: ntnxdemo/rsvp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1d55e7fb1083fcc72642166d35c8c28002f57802"
+  tag: "a75a95c579bbb308b4820332b70f31f6eed73282"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
