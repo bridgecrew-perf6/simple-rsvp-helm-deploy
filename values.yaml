@@ -7,7 +7,7 @@ image:
   repository: ntnxdemo/rsvp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "a75a95c579bbb308b4820332b70f31f6eed73282"
+  tag: "1b527ae39f8e6aa83a5837be054468319faa524a"
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -44,8 +44,8 @@ ingress:
   hosts:
     - host: rsvp.10.38.12.154.nip.io
       paths:
-      - path: /
-        pathType: ImplementationSpecific
+        - path: /
+          pathType: ImplementationSpecific
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
